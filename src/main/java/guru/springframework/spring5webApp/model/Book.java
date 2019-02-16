@@ -25,6 +25,9 @@ public class Book {
         return id.equals(book.id);
     }
 
+    public Book() {
+    }
+
     @Override
     public int hashCode() {
         return Objects.hash(id);

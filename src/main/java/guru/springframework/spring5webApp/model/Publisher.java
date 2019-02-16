@@ -43,6 +43,9 @@ public class Publisher {
         this.address = address;
     }
 
+    public Publisher() {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
